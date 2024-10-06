@@ -79,7 +79,7 @@ echo   public:
 echo     MainDoc *GetDocument^(^) const;
 echo.
 echo   public:
-echo     virtual void OnDraw^(CDC *pDC^);
+echo     virtual void OnDraw^(CDC *pDC^) override;
 echo };
 ) > .\include\%PROJECT_NAME%\frame\MainView.h
 
